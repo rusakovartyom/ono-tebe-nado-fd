@@ -23,14 +23,37 @@
     <!-- Шапка -->
     <header class="header">
       <nav>
-        <li>главная</li>
-        <li>посмотреть лоты</li>
-        <li>об аукционе</li>
+        <ul class="header__menu-list">
+          <li class="header__menu-item header__menu-item_active">
+            <a class="header__menu-link">главная</a>
+          </li>
+          <li class="header__menu-item">
+            <a
+              class="header__menu-link"
+              href="#0"
+              >посмотреть лоты</a
+            >
+          </li>
+          <li class="header__menu-item">
+            <a
+              class="header__menu-link"
+              href="#0"
+              >об аукционе</a
+            >
+          </li>
+        </ul>
       </nav>
-      <a
-        class="logo"
-        href=""></a>
-      <address></address>
+      <a class="header__logo"
+        ><img
+          class="header__logo-image"
+          src="./images/logo-black.svg"
+          alt="Логотип проекта"
+      /></a>
+      <address class="contacts">
+        <a href="tel:+99995555555">+9 999 555 5555</a>
+        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <p>наб. Принсенграхт 263- 265, Амстердам</p>
+      </address>
     </header>
     <!-- Основной -->
     <main class="main">
